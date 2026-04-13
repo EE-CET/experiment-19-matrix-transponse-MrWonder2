@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-        lass MatrixTranspose {
+public class MatrixTranspose {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            if (!scanner.hasNextInt()) ret
-
+            if (!scanner.hasNextInt()) return;
+            int n = scanner.nextInt();
             int[][] matrix = new int[n][n];
 
             for (int i = 0; i < n; i++) {
